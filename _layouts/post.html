@@ -1,0 +1,9 @@
+---
+layout: default
+---
+<h1>{{ page.title }}</h1>
+<p>{{ page.date | date: "%d/%m/%Y" }}{% if page.author %} · por {{ page.author }}{% endif %}</p>
+
+{{ content }}
+
+<p><a href="{{ '/blog.html' | relative_url }}">&larr; Volver al blog</a></p>

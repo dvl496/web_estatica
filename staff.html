@@ -1,0 +1,14 @@
+---
+layout: default
+title: Personajes
+---
+<h1>Personajes</h1>
+
+<ul>
+  {% for author in site.authors %}
+    <li>
+      <a href="{{ author.url | relative_url }}">{{ author.name }}</a>
+      ({{ author.position }})
+    </li>
+  {% endfor %}
+</ul>

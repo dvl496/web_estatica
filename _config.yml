@@ -1,0 +1,11 @@
+title: JoJo's Bizarre Adventure
+
+collections:
+  authors:
+    output: true
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
