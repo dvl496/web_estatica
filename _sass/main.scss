@@ -1,0 +1,44 @@
+$bg: #1a0f2e;
+$panel: #2a1a4a;
+$accent: #f2c230;
+$accent2: #e63da8;
+$text: #f4eefc;
+
+body {
+  margin: 0;
+  background: $bg;
+  color: $text;
+  font-family: Georgia, serif;
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(90deg, $accent2, $accent);
+  padding: 1rem 2rem;
+  h1 {
+    margin: 0;
+    color: $bg;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+  }
+}
+
+nav {
+  background: $panel;
+  padding: 0.6rem 2rem;
+  a {
+    color: $text;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 1.5rem;
+    &:hover { color: $accent; }
+  }
+}
+
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  h1, h2 { color: $accent; }
+  a { color: $accent; }
+}

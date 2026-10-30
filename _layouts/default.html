@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }} · JoJo's Bizarre Adventure</title>
+    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+  </head>
+  <body>
+    <header>
+      <h1>ゴゴゴ JoJo's Bizarre Adventure</h1>
+    </header>
+
+    {% include navigation.html %}
+
+    <main>
+      {{ content }}
+    </main>
+  </body>
+</html>
